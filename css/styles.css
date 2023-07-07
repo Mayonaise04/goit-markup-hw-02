@@ -2,6 +2,15 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.link {
+    text-decoration: none;
+}
+.logo-link {
+    text-decoration: none;
+}
+.web-logo{
+    text-transform: capitalize;
+}
 .contacts-text{
     text-transform: var(hover)
 }
