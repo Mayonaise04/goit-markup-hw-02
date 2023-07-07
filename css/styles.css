@@ -1,31 +1,46 @@
 body {
-    font-family: sans-serif;
-    font: roboto;
+    font-family: "Roboto", sans-serif;
 }
-.contacts-text:hover {
-    color: green;
+
+.contacts-text{
+    text-transform: var(hover)
 }
-.contacts-text:focus {
+
+.button{
+    cursor: pointer;
+}
+.button-one{
+    font-family: sans-serif; 
+    font: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #4D5AE5;
+    border: none;
+}
+
+.button-one:hover {
+    color: crimson; 
+}
+.button-one:focus {
     color: orange;
 }
-.contacts-text:active {
+.button-one:active {
     color: red;
 }
-.contacts-text:visited {
+.button-one:visited {
     color:purple;
 }
 
-.pointer {
-    cursor: pointer;
-}
-.button-item {
-    color: #4D5AE5; 
-    font: roboto; 
+
+.button-item{
+    color: #4D5AE5;
+    font: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
 }
-
 .button-item:hover {
     color: green; 
 }
@@ -38,8 +53,19 @@ body {
 .button:visited {
     color:purple;
 }
-.header-text {
-    font-family: sans-serif;
-    font: roboto;
-    color: black
+.header-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42
 }
+.label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455
+}
+
+
+
+
