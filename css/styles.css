@@ -1,3 +1,13 @@
+:root {
+    --primary-white-color: #ffffff;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --primary-background-color: #2E2F42;
+    --background-color: #F4F4FD;
+    --text-color: #4D5AE5;
+    --secondary-background-color: #404BBF;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -13,13 +23,13 @@ body {
 }
 
 .link-list:hover {
-    color: crimson; 
+    color: #4D5AE5;
 }
 .link-list:focus {
-    color: orange;
+    color: #4D5AE5;
 }
 .link-list:active {
-    color: blue;
+    color: #4D5AE5;
 }
 .link{
     text-decoration: none;
@@ -45,24 +55,24 @@ body {
 
 
 .email-link:hover {
-    color: crimson; 
+    color: #4D5AE5; 
 }
 
 .email-link:focus {
-    color: orange;
+    color: #4D5AE5
 }
 
 .email-link:active {
-    color: blue;
+    color: #4D5AE5;
 }
 .phone-link:hover {
-    color: crimson; 
+    color: #4D5AE5; 
 }
 .phone-link:focus {
-    color: orange;
+    color: #4D5AE5;
 }
 .phone-link:active {
-    color: blue;
+    color: #4D5AE5;
 }
 
 .web-logo{
@@ -106,7 +116,7 @@ body {
     gap: 10px;
 }
 .button-tab:hover {
-    color: crimson; 
+    color: #2E2F42;
 }
 
 .main-section{
@@ -133,16 +143,16 @@ body {
 }
 
 .button-one:hover {
-    color: crimson; 
+    color: #2E2F42;
 }
 .button-one:focus {
-    color: orange;
+    color:#2E2F42; 
 }
 .button-one:active {
-    color: red;
+    color: #2E2F42;
 }
 .button-one:visited {
-    color:purple;
+    color: #2E2F42;
 }
 .button-item{
     color: #4D5AE5;
@@ -155,16 +165,20 @@ body {
 }
 
 .button-item:hover {
-    color: green; 
+    color: var(--primary-white-color); 
+    background-color: #404BBF;
 }
 .button-item:focus {
-    color: orange;
+    color: var(--primary-white-color);
+    background-color: #404BBF;
 }
 .button-item:active {
-    color: red;
+    color: var(--primary-white-color);
+    background-color: #404BBF;
 }
 .button:visited {
-    color:purple;
+    color:var(--primary-white-color);
+    background-color: #404BBF;
 }
 
 .list-section{
@@ -177,6 +191,29 @@ body {
 }
 .image-list{
     list-style: none;
+}
+
+.header-title{
+    font-family: "ROBOTO", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.section-text{
+    font-family: "ROBOTO", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+.header-two{
+    font-family: "ROBOTO", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
 }
 
 .header-text{
