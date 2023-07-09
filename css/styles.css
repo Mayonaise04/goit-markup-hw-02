@@ -12,18 +12,16 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24;
+    line-height: 24px;
     letter-spacing: .32;
 }
 .list{
     list-style: none;
     margin: 0;
     padding: 0;
-
-
 }
-.active-link{
-    color: #404bbf;
+.active-link {
+    color: #404bbf !important;
 }
 .link-list{
     font-weight: 500;
@@ -32,7 +30,6 @@ body {
     color: #2E2F42;
     font-style: normal;
     text-decoration: none;
-    list-style: none;
 }
 
 .link-list:hover {
@@ -69,7 +66,6 @@ body {
 .address-link:active {
     color: #4D5AE5;
 }
-
 
 .web-logo{
     font-family: "RALEWAY", sans-serif;
@@ -150,20 +146,8 @@ body {
     
 }
 
-
-
-.list-section{
-    list-style: none;
-}
 .section-grey{
     background-color: #F4F4FD;
-}
-.team-list-section{
-    list-style: none;
-    background-color:#F4F4FD;
-}
-.image-list{
-    list-style: none;
 }
 
 .benefits-title, .team-title{
