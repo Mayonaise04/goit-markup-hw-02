@@ -10,8 +10,21 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24;
+    letter-spacing: .32;
 }
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
+
+}
+.active-link{
+    color: #404bbf;
+}
 .link-list{
     font-weight: 500;
     font-size: 16px;
@@ -33,20 +46,11 @@ body {
 }
 .link{
     text-decoration: none;
-    list-style: none;
+    color: inherit;
 }
 
-.email-link{
+.address-link{
     font-style: normal;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #434455;
-}
-.phone-link{
-    font-style: normal;
-    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -54,26 +58,18 @@ body {
 }
 
 
-.email-link:hover {
+.address-link:hover {
     color: #4D5AE5; 
 }
 
-.email-link:focus {
+.address-link:focus {
     color: #4D5AE5
 }
 
-.email-link:active {
+.address-link:active {
     color: #4D5AE5;
 }
-.phone-link:hover {
-    color: #4D5AE5; 
-}
-.phone-link:focus {
-    color: #4D5AE5;
-}
-.phone-link:active {
-    color: #4D5AE5;
-}
+
 
 .web-logo{
     font-family: "RALEWAY", sans-serif;
@@ -91,7 +87,6 @@ body {
     
 }
 .header-main{
-    font-family: "ROBOTO", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
@@ -99,7 +94,7 @@ body {
     
 }
 .button-tab{
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -107,16 +102,13 @@ body {
     text-align: left;
     background-color: #4D5AE5;
     border: none;
-    width: Hug (169px);
-    height: Hug (56px);
-    top: 428px;
-    left: 636px;
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
-    gap: 10px;
+    cursor: pointer;
+    
 }
 .button-tab:hover {
-    color: #2E2F42;
+    background-color: #404BBF;
 }
 
 .main-section{
@@ -127,64 +119,45 @@ body {
     cursor: pointer;
 }
 
-.button-style{
-    list-style: none;
-}
-.button-one{
-    font-family: sans-serif; 
-    font: inherit;
+.filter-button{
+    color: #4D5AE5;
+    background: #f4f4fd;
+    border: 1 px solid #E7E9FC;
+    border-radius: 4px;
+    font-family:  inherit;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16;
     line-height: 24px;
+    cursor: pointer;
+}
+.filter-button:hover{
+    color: #ffffff;
+    background-color: #404BBF;
+    border-color: #404BBF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.filter-active{
     color: white;
     background-color: #404BBF;
-    border: none;
+    border: #404BBF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     
 }
 
-.button-one:hover {
-    color: #2E2F42;
-}
-.button-one:focus {
-    color:#2E2F42; 
-}
-.button-one:active {
-    color: #2E2F42;
-}
-.button-one:visited {
-    color: #2E2F42;
-}
-.button-item{
-    color: #4D5AE5;
-    background-color: #F4F4FD;
-    border-color: #E7E9FC;
-    font: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-}
 
-.button-item:hover {
-    color: var(--primary-white-color); 
-    background-color: #404BBF;
-}
-.button-item:focus {
-    color: var(--primary-white-color);
-    background-color: #404BBF;
-}
-.button-item:active {
-    color: var(--primary-white-color);
-    background-color: #404BBF;
-}
-.button:visited {
-    color:var(--primary-white-color);
-    background-color: #404BBF;
-}
 
 .list-section{
     list-style: none;
 }
-
+.section-grey{
+    background-color: #F4F4FD;
+}
 .team-list-section{
     list-style: none;
     background-color:#F4F4FD;
@@ -193,37 +166,31 @@ body {
     list-style: none;
 }
 
-.header-title{
-    font-family: "ROBOTO", sans-serif;
+.benefits-title, .team-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #2E2F42;
 }
 
-.section-text{
-    font-family: "ROBOTO", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+.team-position{
     color: #434455;
 }
-.header-two{
-    font-family: "ROBOTO", sans-serif;
+.section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     color: #2E2F42;
 }
 
-.header-text{
+.project-title{
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #2E2F42
 }
-.label{
+.project-description{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -241,9 +208,5 @@ body {
 }
 
 .footer-text{
-    font-family:  "ROBOTO", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     color: #F4F4FD
 }
