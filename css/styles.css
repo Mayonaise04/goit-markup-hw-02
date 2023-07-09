@@ -54,17 +54,12 @@ body {
     color: #434455;
 }
 
-
 .address-link:hover {
     color: #4D5AE5; 
 }
 
 .address-link:focus {
     color: #4D5AE5
-}
-
-.address-link:active {
-    color: #4D5AE5;
 }
 
 .web-logo{
